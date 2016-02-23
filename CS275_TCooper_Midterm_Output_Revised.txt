@@ -1,0 +1,245 @@
+table ASSIGNMENT altered.
+table ASSIGNMENT altered.
+table EMPLOYEE altered.
+table PROJECT altered.
+session SET altered.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+1 rows inserted.
+EMP_FNAME       EMP_LNAME       EMP_HIREDATE
+--------------- --------------- ------------
+David           Senior          07/12/1989   
+Anne            Ramoras         11/15/1987   
+Alice           Johnson         02/01/1993   
+Ralph           Washington      08/22/1991   
+Geoff           Wabash          04/04/1991   
+Travis          Bawangi         01/25/1992   
+
+ 6 rows selected 
+
+JOB_CODE JOB_DESCRIPTION           JOB_CHG_HOUR JOB_LAST_UPDATE
+-------- ------------------------- ------------ ---------------
+502      Database Designer                  125 03/24/2010      
+501      Systems Analyst                   96.8 11/20/2009      
+503      Electrical Engineer               84.5 11/20/2009      
+504      Mechanical Engineer               67.9 11/20/2009      
+505      Civil Engineer                    55.8 11/20/2009      
+508      Applications Designer             48.1 03/24/2010      
+507      DSS Analyst                         46 11/20/2009      
+500      Programmer                        35.8 11/20/2009      
+509      Bio Technician                    34.6 11/20/2009      
+506      Clerical Support                  26.9 11/20/2009      
+510      General Support                   18.4 11/20/2009      
+
+ 11 rows selected 
+
+EMP_FNAME       EMP_LNAME       EMP_INITIAL
+--------------- --------------- -----------
+Anne            Ramoras         K           
+Alice           Johnson         K           
+Annelise        Jones                       
+Angie           Williamson      H           
+
+JOB_CODE JOB_DESCRIPTION           JOB_CHG_HOUR JOB_LAST_UPDATE
+-------- ------------------------- ------------ ---------------
+501      Systems Analyst                   96.8 11/20/2009      
+503      Electrical Engineer               84.5 11/20/2009      
+504      Mechanical Engineer               67.9 11/20/2009      
+505      Civil Engineer                    55.8 11/20/2009      
+507      DSS Analyst                         46 11/20/2009      
+
+PROJ_NAME                 PROJ_VALUE PROJ_BALANCE EMP_FNAME       EMP_LNAME     
+------------------------- ---------- ------------ --------------- ---------------
+Rolling Tide                  805000       500000 David           Senior          
+Evergreen                    1450000      1000000 June            Arbough         
+Starflight                   2650000      2310000 Maria           Alonzo          
+Amber Wave                   3500000      2110000 Ralph           Washington      
+
+EMP_FNAME       EMP_LNAME       EMP_HIREDATE JOB_DESCRIPTION         
+--------------- --------------- ------------ -------------------------
+Delbert         Joenbrood       11/15/1996   Applications Designer     
+Annelise        Jones           08/20/1993   Applications Designer     
+Angie           Williamson      06/19/1996   Bio Technician            
+Gerald          Olenko          12/11/1995   Civil Engineer            
+Geoff           Wabash          04/04/1991   Clerical Support          
+Darlene         Smithson        10/23/1994   DSS Analyst               
+Alice           Johnson         02/01/1993   Database Designer         
+John            News            11/08/2000   Database Designer         
+June            Arbough         12/01/1996   Electrical Engineer       
+Gerald          Pratt           03/05/1997   General Support           
+James           Frommer         01/04/2005   General Support           
+William         Smithfield      06/22/2004   Programmer                
+Maria           Alonzo          10/10/1993   Programmer                
+Travis          Bawangi         01/25/1992   Systems Analyst           
+Larry           Smith           07/18/1997   Systems Analyst           
+Ralph           Washington      08/22/1991   Systems Analyst           
+Anne            Ramoras         11/15/1987   Systems Analyst           
+David           Senior          07/12/1989   Systems Analyst           
+
+ 18 rows selected 
+
+PROJ_NUM PROJ_NAME                 PROJ_VALUE PROJ_BALANCE EMP_NUM EMP_FNAME       EMP_LNAME     
+-------- ------------------------- ---------- ------------ ------- --------------- ---------------
+18       Amber Wave                   3500000      2110000 108     Ralph           Washington      
+15       Evergreen                    1450000      1000000 103     June            Arbough         
+22       Rolling Tide                  805000       500000 102     David           Senior          
+25       Starflight                   2650000      2310000 107     Maria           Alonzo          
+
+ASSIGN_NUM ASSIGN_DATE PROJ_NAME                 EMP_LNAME       EMP_FNAME       JOB_DESCRIPTION           ASSIGN_CHG_HR ASSIGN_HOURS
+---------- ----------- ------------------------- --------------- --------------- ------------------------- ------------- ------------
+      1008 03/22/2010  Amber Wave                Arbough         June            Electrical Engineer                84.5           .9 
+      1004 03/22/2010  Amber Wave                Arbough         June            Electrical Engineer                84.5          5.9 
+      1001 03/22/2010  Amber Wave                Arbough         June            Electrical Engineer                84.5          3.5 
+      1024 03/24/2010  Evergreen                 Arbough         June            Electrical Engineer                84.5          3.3 
+      1015 03/23/2010  Evergreen                 Arbough         June            Electrical Engineer                84.5          6.1 
+      1023 03/24/2010  Rolling Tide              Johnson         Alice           Database Designer                   125          3.5 
+      1006 03/22/2010  Rolling Tide              Ramoras         Anne            Systems Analyst                    96.8          4.2 
+      1016 03/23/2010  Rolling Tide              Johnson         Alice           Database Designer                   105          4.7 
+      1014 03/23/2010  Rolling Tide              Ramoras         Anne            Systems Analyst                    96.8          2.8 
+      1019 03/24/2010  Starflight                Ramoras         Anne            Systems Analyst                     111          4.9 
+      1011 03/23/2010  Starflight                Johnson         Alice           Database Designer                   105          4.3 
+
+ 11 rows selected 
+
+JOB_CODE JOB_DESCRIPTION           COUNT(EMP_NUM)
+-------- ------------------------- --------------
+508      Applications Designer                  2 
+509      Bio Technician                         1 
+505      Civil Engineer                         1 
+506      Clerical Support                       1 
+507      DSS Analyst                            1 
+502      Database Designer                      2 
+503      Electrical Engineer                    1 
+510      General Support                        2 
+500      Programmer                             2 
+501      Systems Analyst                        5 
+
+ 10 rows selected 
+
+JOB_CODE JOB_DESCRIPTION           COUNT(EMP_NUM)
+-------- ------------------------- --------------
+501      Systems Analyst                        5 
+
+JOB_CODE JOB_DESCRIPTION         
+-------- -------------------------
+504      Mechanical Engineer       
+
+1 rows updated.
+JOB_CODE JOB_DESCRIPTION           JOB_CHG_HOUR JOB_LAST_UPDATE
+-------- ------------------------- ------------ ---------------
+500      Programmer                        35.8 11/20/2009      
+501      Systems Analyst                   96.8 11/20/2009      
+502      Database Developer                 125 03/24/2010      
+503      Electrical Engineer               84.5 11/20/2009      
+504      Mechanical Engineer               67.9 11/20/2009      
+505      Civil Engineer                    55.8 11/20/2009      
+506      Clerical Support                  26.9 11/20/2009      
+507      DSS Analyst                         46 11/20/2009      
+508      Applications Designer             48.1 03/24/2010      
+509      Bio Technician                    34.6 11/20/2009      
+510      General Support                   18.4 11/20/2009      
+
+ 11 rows selected 
+
+AVG(JOB_CHG_HOUR)
+-----------------
+       58.1636364 
+
+JOB_DESCRIPTION           JOB_CHG_HOUR
+------------------------- ------------
+Database Developer                 125 
+Electrical Engineer               84.5 
+Mechanical Engineer               67.9 
+Systems Analyst                   96.8 
+
+table EMPLOYEE altered.
+table EMPLOYEE altered.
+1 rows updated.
+1 rows deleted.
+JOB_CODE JOB_DESCRIPTION           JOB_CHG_HOUR JOB_LAST_UPDATE
+-------- ------------------------- ------------ ---------------
+500      Programmer                        35.8 11/20/2009      
+501      Systems Analyst                   96.8 11/20/2009      
+502      Database Developer                 125 03/24/2010      
+503      Electrical Engineer               84.5 11/20/2009      
+505      Civil Engineer                    55.8 11/20/2009      
+506      Clerical Support                  26.9 11/20/2009      
+507      DSS Analyst                         46 11/20/2009      
+508      Applications Designer             48.1 03/24/2010      
+509      Bio Technician                    34.6 11/20/2009      
+510      General Support                   18.4 11/20/2009      
+
+ 10 rows selected 
+
+1 rows inserted.
+JOB_CODE JOB_DESCRIPTION           JOB_CHG_HOUR JOB_LAST_UPDATE
+-------- ------------------------- ------------ ---------------
+500      Programmer                        35.8 11/20/2009      
+501      Systems Analyst                   96.8 11/20/2009      
+502      Database Developer                 125 03/24/2010      
+503      Electrical Engineer               84.5 11/20/2009      
+505      Civil Engineer                    55.8 11/20/2009      
+506      Clerical Support                  26.9 11/20/2009      
+507      DSS Analyst                         46 11/20/2009      
+508      Applications Designer             48.1 03/24/2010      
+509      Bio Technician                    34.6 11/20/2009      
+510      General Support                   18.4 11/20/2009      
+504      Mechanical Engineer               67.9 11/20/2009      
+
+ 11 rows selected 
+
